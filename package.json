@@ -11,6 +11,12 @@
     },
     "prettier": "@risedle/prettier-config",
     "dependencies": {
+        "@chakra-ui/layout": "2.1.7",
+        "@chakra-ui/react": "2.3.4",
+        "@emotion/react": "^11",
+        "@emotion/server": "^11",
+        "@emotion/styled": "^11",
+        "framer-motion": "^6",
         "next": "12.3.1",
         "react": "0.0.0-experimental-3d615fc14-20220919",
         "react-dom": "0.0.0-experimental-3d615fc14-20220919",
