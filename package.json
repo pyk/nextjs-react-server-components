@@ -12,8 +12,9 @@
     "prettier": "@risedle/prettier-config",
     "dependencies": {
         "next": "12.3.1",
-        "react": "18.2.0",
-        "react-dom": "18.2.0"
+        "react": "0.0.0-experimental-3d615fc14-20220919",
+        "react-dom": "0.0.0-experimental-3d615fc14-20220919",
+        "swr": "1.3.0"
     },
     "devDependencies": {
         "@risedle/prettier-config": "0.1.2",
