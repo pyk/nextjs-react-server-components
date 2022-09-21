@@ -18,13 +18,13 @@ async function fetchData() {
     return value.ethereum.usd;
 }
 
-const cache = {};
+const cache = new Map<string, number>();
 
 export default function AppLayout(props: LayoutProps) {
-    const price = cache["price"];
+    const price = cache.get("price");
     fetchData().then((data) => {
         console.log("DEBUG: data", data);
-        cache["price"] = data;
+        cache.set("price", data);
     });
     return (
         <html>
